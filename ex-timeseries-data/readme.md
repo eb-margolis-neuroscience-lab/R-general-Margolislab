@@ -1,1 +1,1 @@
-Example dataset that can be used with tiecourse_meanerror.R  
+Example dataset that can be used with timecourse_meanerror.R  
