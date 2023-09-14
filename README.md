@@ -66,4 +66,9 @@ graphobj <- individualwavegraph(inputdf, endtime)
 ```  
 Generates a Plotly figure object displaying a line for each column in the input dataframe. Can be subsequently styled with [Plotly](https://plotly.com/r/).  
 - inputdf <- df where each column is a data series, such as the output from loadhdf5todf or loaddelimitedtodf.
-- endtime <- the last datapoint to display in the output graph (i.e., the end of the data range to display)  
+- endtime <- the last datapoint to display in the output graph (i.e., the end of the data range to display)
+
+
+
+
+  *Updated by EBM 9/13/2023*
