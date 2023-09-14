@@ -13,7 +13,7 @@ Prints to console a p value and optionally displays the histogram of the results
 - showgraph <- 'y' or 'n' to show histogram of shuffle results  
 
 ### timecourse_meanerror.R  
-Set of functions to process sets of series data saved in separate files into series mean ± confidence band format for visualization. Also use [Plotly](https://plotly.com/r/) to generate some typical graphs. Example dataset provided.  
+Set of functions to process sets of series data saved in separate files into series mean ± confidence band format for visualization. Also use [Plotly](https://plotly.com/r/) to generate some typical graphs. [Example dataset](ex-timeseries-data) provided.  
 Functions in this file include:  
 ```
 df <- loadhdf5todf(dirname)
