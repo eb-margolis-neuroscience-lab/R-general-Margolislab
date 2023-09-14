@@ -14,6 +14,7 @@ Prints to console a p value and optionally displays the histogram of the results
 
 ### timecourse_meanerror.R  
 Set of functions to process sets of series data saved in separate files into series mean ± confidence band format for visualization. Also use [Plotly](https://plotly.com/r/) to generate some typical graphs. [Example dataset](ex-timeseries-data) provided.  
+<img src="timecourse_ex.png" alt="example plot" width="350"/>   
 Functions in this file include:  
 ```
 df <- loadhdf5todf(dirname)
